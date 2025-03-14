@@ -1,2 +1,4 @@
-print("Hello world!") 
-print("Hello world2!!!")
+#print("Hello world!") 
+
+print("mama")
+print("yahaaa") #This is print statement
