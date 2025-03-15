@@ -91,13 +91,53 @@
 #     print("area of rectangle is ",int(length)*int(bredth))      
 # else:
 #     print("cat poops on you")
-print(" donation")
-in1 = input("enter the amount of donation between 0 to 100 ")
-if int(in1)>50 or int(in1)<100:
-    print("thank you very much")
-elif int(in1)>10 or int(in1)<50:
-    print("welcome")
-elif int(in1)>1 or int(in1)<10:
-    print("bikhari")
+# print(" donation")
+# in1 = input("enter the amount of donation between 0 to 100 ")
+# if int(in1)>50 or int(in1)<100:
+#     print("thank you very much")
+# elif int(in1)>10 or int(in1)<50:
+#     print("welcome")
+# elif int(in1)>1 or int(in1)<10:
+#     print("bikhari")
+# else:
+#     print("bhag yeha se")    
+print("insurence program")
+age = input("what is your age " )
+if int(age)>=50 and int(age)<100:
+    print("your age is greater than 50")
+    q1 = input("do you have bp 1=true and 2= false")
+    if int(q1)==1:
+        print("you have bp")
+        q2 = input("do you have sugar 1 = true and 2 = false")
+        if int(q2)==1:
+            print("you will not get insurence")
+        elif int(q2)==2:
+            print("congratus you have our insurence at 1 million euro")    
+        else:
+            print("enter a valid input")    
+    elif int(q1)==2:
+        print("you dont have bp")
+        q2 = input("do you have sugar 1 = true and 2 = false")
+        if int(q2)==1:
+            print("you will not get insurence")
+        elif int(q2)==2:
+            print("congratus you have our insurence at 1 million inr")    
+        else:
+            print("enter a valid input")  
+
+        
+    else:
+        print("enter a valid number")
+elif int(age)>=18 and int(age)<50:
+    print("you are an adult")
+    q1 = input("do you have chronic desise 1 = true and 2 = false")
+    if int(q1)==1:
+        print("you are not eligible")
+    elif int(q1)==2:
+        print("you are eligible")
+    else:
+        print("enter a valid number")        
+elif int(age)>=1 and int(age)<18:
+    print("you are not eligible")    
 else:
-    print("bhag yeha se")    
+    print("enter a valid age ")
