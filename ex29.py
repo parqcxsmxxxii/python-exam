@@ -31,11 +31,42 @@
    # print("high volume")    
 #else:
 #    print("not valid")
-print("your name  ")
-in1 = input(" your name is ram or sham ")
-if in1 == "ram" or in1 == "Ram" or in1=="RAM":
-    print("hello ",  in1)
-elif in1 == "shyam" or in1 == "Shyam" or in1=="SHYAM":
-    print("hello ",  in1)
+# print("your name  ")
+# in1 = input(" your name is ram or sham ")
+# if in1 == "ram" or in1 == "Ram" or in1=="RAM":
+#     print("hello ",  in1)
+# elif in1 == "shyam" or in1 == "Shyam" or in1=="SHYAM":
+#     print("hello ",  in1)
+# else:
+#     print("jai shree ram") 
+     
+## 1. Ask user - 1.Add,2.subtract,3.multiply,4.divide
+## based on choice of add,sub,mul,div ask user to enter number 1 and enter number 2 and then display the resut as per user choice.
+print("1 is for add")
+print("2 is for sub")
+print("3 is for multiplication")
+print("4 is for division")
+in1 = input("choose from add,sub,multiplication or division  ")
+if int(in1) == 1:
+    print("you have choosen add")
+    num1 = input("Enter num1 ")
+    num2 = input("Enter num2 ")
+    print("The addition is ", int(num1)+int(num2))
+    
+elif int(in1) == 2:
+    print("you have choosen sub")
+    num1 = input("enter num1 ")
+    num2 = input("enter num2 ")
+    print("the sub is", int(num1)-int(num2))
+elif int(in1) == 3:
+    print("you have choosen multiplication")
+    num1 = input("enter num1 ")
+    num2 = input("enter num2 ")
+    print("the multiplication is", int(num1)*int(num2))
+elif int(in1) == 4:
+    print("you have choosen division")
+    num1 = input("enter num1 ")
+    num2 = input("enter num2 ")
+    print("the division is", int(num1)/int(num2))
 else:
-    print("jai shree ram")      
+    print("try again")    
