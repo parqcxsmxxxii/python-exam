@@ -70,24 +70,34 @@
 #     print("the division is", int(num1)/int(num2))
 # else:
 #     print("try again")    
-print("choose area do you to find") 
-print("1 for area of circle")
-print("2 for area of square")
-print("3 for area of rectangle")
-in1 = input("choose from circle ,square or rectangle ")
-if int(in1) ==1:
-    print("you have choosen circle")
-    pi = 3.14
-    radius = input("enter the radius ")
-    print("area of circle is ",pi*int(radius)*int(radius))
-elif int(in1) == 2:
-    print("you have choosen square")
-    side = input("enter the side ")
-    print("area of square",int(side)*int(side))
-elif int(in1) == 3:
-    print("you have choosen rectangle")  
-    length = input("enter the length")
-    bredth = input("enter the bredth")
-    print("area of rectangle is ",int(length)*int(bredth))      
+# print("choose area do you to find") 
+# print("1 for area of circle")
+# print("2 for area of square")
+# print("3 for area of rectangle")
+# in1 = input("choose from circle ,square or rectangle ")
+# if int(in1) ==1:
+#     print("you have choosen circle")
+#     pi = 3.14
+#     radius = input("enter the radius ")
+#     print("area of circle is ",pi*int(radius)*int(radius))
+# elif int(in1) == 2:
+#     print("you have choosen square")
+#     side = input("enter the side ")
+#     print("area of square",int(side)*int(side))
+# elif int(in1) == 3:
+#     print("you have choosen rectangle")  
+#     length = input("enter the length")
+#     bredth = input("enter the bredth")
+#     print("area of rectangle is ",int(length)*int(bredth))      
+# else:
+#     print("cat poops on you")
+print(" donation")
+in1 = input("enter the amount of donation between 0 to 100 ")
+if int(in1)>50 or int(in1)<100:
+    print("thank you very much")
+elif int(in1)>10 or int(in1)<50:
+    print("welcome")
+elif int(in1)>1 or int(in1)<10:
+    print("bikhari")
 else:
-    print("cat poops on you")
+    print("bhag yeha se")    
