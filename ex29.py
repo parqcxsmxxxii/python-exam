@@ -14,9 +14,10 @@ print("3 for square ")
 in1 = input("choose circle or rectangle    ")
 if int(in1) == 1:
     print("output is a circle")
-if int(in1) == 2:
+elif int(in1) == 2:
+    # elif is used to chec multiple if statement inside one if block
     print("output is rectangle")
-if int(in1) == 3:
+elif int(in1) == 3:
     print("output is square")
 else:
     print("Invalid input")        
