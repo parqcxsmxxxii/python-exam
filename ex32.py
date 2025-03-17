@@ -15,9 +15,11 @@
 # for n in number:
 #     print("the table of 5 is 5x ",n,"=",n*5)
 print("learning nested loop")
-matrix = [[3,6,9],
-          [2,4,8],
-          [1,3,6]]
-for m in matrix:
-    for n in m:
-        print("the element of  matrix is ",n)
+# matrix = [[3,6,9],
+#           [2,4,8],
+#           [1,3,6]]
+# for m in matrix:
+#     for n in m:
+#         print("the element of  matrix is ",n)
+for i in range(1,11,1):
+    print("The number is ",i)
