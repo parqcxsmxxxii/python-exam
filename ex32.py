@@ -26,27 +26,34 @@ print("learning nested loop")
 # money = [2,5,7,3,4]
 # for m in money:
 #     print("the money ",m)
-student = [{"id":25,
-            "name":"mama",
-            "age":15,
-            "num":[4,7,8,2,4]},
-           {"id":21,
-            "name":"batrang",
-            "age":16,
-            "num":[1,5,7,9,3]},
-           {"id":22,
-            "name":"jacob",
-            "age":18,
-            "num":[3,8,9,0,2,6]},
-           {"id":30,
-            "name":"tolouse",
-            "age":29,
-            "num":[6,8,9,0,3,2]},
-           {"id":28,
-            "name":"orang",
-            "age":17,
-            "num":[4,6,7,5,0]}]
-for s in student:
-    print("student name ",s["name"],"their num is ",s["num"])
-    for n in s["num"]:
-         print("num ",n*2)
+# student = [{"id":25,
+#             "name":"mama",
+#             "age":15,
+#             "num":[4,7,8,2,4]},
+#            {"id":21,
+#             "name":"batrang",
+#             "age":16,
+#             "num":[1,5,7,9,3]},
+#            {"id":22,
+#             "name":"jacob",
+#             "age":18,
+#             "num":[3,8,9,0,2,6]},
+#            {"id":30,
+#             "name":"tolouse",
+#             "age":29,
+#             "num":[6,8,9,0,3,2]},
+#            {"id":28,
+#             "name":"orang",
+#             "age":17,
+#             "num":[4,6,7,5,0]}]
+# for s in student:
+#     print("student name ",s["name"],"their num is ",s["num"])
+#     for n in s["num"]:
+#          print("num ",n*2)
+nested_list = [[7,8,3,7,3],
+               [3,8,9,0,2],
+               [4,7,2,8,3]]
+for n in nested_list:
+    print("the numbers ",n)
+    for l in n:
+        print("multiplied by 3 ",l*3)
