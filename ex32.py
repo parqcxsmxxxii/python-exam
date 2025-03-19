@@ -27,14 +27,19 @@ print("learning nested loop")
 # for m in money:
 #     print("the money ",m)
 student = [{"id":25,
-            "name":"mama"},
+            "name":"mama",
+            "age":15},
            {"id":21,
-            "name":"batrang"},
+            "name":"batrang",
+            "age":16},
            {"id":22,
-            "name":"jacob"},
+            "name":"jacob",
+            "age":18},
            {"id":30,
-            "name":"tolouse"},
+            "name":"tolouse",
+            "age":29},
            {"id":28,
-            "name":"orang"}]
+            "name":"orang",
+            "age":17}]
 for s in student:
-    print("student name ",s["name"])
+    print("student name ",s["name"],"for student id ",s["id"],"student age is ",s["age"])
