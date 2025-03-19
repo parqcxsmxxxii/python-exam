@@ -47,4 +47,6 @@ student = [{"id":25,
             "age":17,
             "num":[4,6,7,5,0]}]
 for s in student:
-    print("student name ",s["name"],"their num is ",s["num"]*2)
+    print("student name ",s["name"],"their num is ",s["num"])
+    for n in s["num"]:
+         print("num ",n*2)
