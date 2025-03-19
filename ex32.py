@@ -23,6 +23,18 @@ print("learning nested loop")
 #         print("the element of  matrix is ",n)
 # for i in range(5,51,5):
 #     print("The number is ",i)
-money = [2,5,7,3,4]
-for m in money:
-    print("the money ",m)
+# money = [2,5,7,3,4]
+# for m in money:
+#     print("the money ",m)
+student = [{"id":25,
+            "name":"mama"},
+           {"id":21,
+            "name":"batrang"},
+           {"id":22,
+            "name":"jacob"},
+           {"id":30,
+            "name":"tolouse"},
+           {"id":28,
+            "name":"orang"}]
+for s in student:
+    print("student name ",s["name"])
