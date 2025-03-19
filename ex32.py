@@ -21,5 +21,8 @@ print("learning nested loop")
 # for m in matrix:
 #     for n in m:
 #         print("the element of  matrix is ",n)
-for i in range(5,51,5):
-    print("The number is ",i)
+# for i in range(5,51,5):
+#     print("The number is ",i)
+money = [2,5,7,3,4]
+for m in money:
+    print("the money ",m)
