@@ -16,5 +16,5 @@ def multiplication(a,b):
 # addnum1 = sum(7,8)
 # print("sum of both number is ",addnum1)
 
-multi = multiplication(5,2)
+multi = multiplication(1025,1021)
 print("multiply of the numbers is ",multi)
