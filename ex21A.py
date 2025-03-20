@@ -4,8 +4,8 @@
 # print("the value of ",m)
 # s = sum(5,2)
 # print("the value of sum is ",s)
-from calculate_function import *
-a = sum(5,7)
+from calculate_function import sum as add
+a = add(5,7)
 print("addition of both numbers is ",a)
 # s = sub(5,7)
 # print("subtraction of both numbers is ",s)
