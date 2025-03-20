@@ -30,3 +30,11 @@ def lmultiple2(l):
     for m in l:
         a.append(m*3)
     return a    
+
+def mama(m,k):
+    if m>k:
+        print("ans will be subtraction ",m-k)
+    elif m==k:
+        print("the answer will be multiplication ",m*k)
+    else:
+        print("the ans will be addition ",m+k)    

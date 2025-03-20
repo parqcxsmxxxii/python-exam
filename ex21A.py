@@ -11,7 +11,8 @@ from calculate_function import *
 # print("subtraction of both numbers is ",s)
 # c = compare(6,3)
 # print("the comparison of both num is ",c)
-l1 = [2,4,6,8,10,12]
-# lmultiple(l1)
-w = lmultiple2(l1)
-print(w)
+# l1 = [2,4,6,8,10,12]
+# # lmultiple(l1)
+# w = lmultiple2(l1)
+# print(w)
+mama(4,4)
