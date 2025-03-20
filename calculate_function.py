@@ -38,3 +38,6 @@ def mama(m,k):
         print("the answer will be multiplication ",m*k)
     else:
         print("the ans will be addition ",m+k)    
+
+def hello(name):
+    print("hi ",name)
