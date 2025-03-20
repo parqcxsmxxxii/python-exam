@@ -25,3 +25,8 @@ def lmultiple(l):
     for i in l:
         print("the multiple with two is ",i*2)
     
+def lmultiple2(l):
+    a = []
+    for m in l:
+        a.append(m*3)
+    return a    
