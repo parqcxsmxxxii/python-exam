@@ -20,3 +20,8 @@ def compare(a,b):
     else:
         return False
     
+
+def lmultiple(l):
+    for i in l:
+        print("the multiple with two is ",i*2)
+    
