@@ -40,4 +40,12 @@ def mama(m,k):
         print("the ans will be addition ",m+k)    
 
 def hello(name):
-    print("hi ",name)
+    if name=="jacob":
+        print("hi batrang")
+    elif name=="jaggu":
+        print("hi mama")
+    elif name=="batrang":
+        for i in range(5):
+            print("hi batar batar")
+    else:
+        print("no name found")

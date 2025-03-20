@@ -16,4 +16,4 @@ from calculate_function import *
 # w = lmultiple2(l1)
 # print(w)
 # mama(4,4)
-hello("mani mama ")
+hello("batrang")
