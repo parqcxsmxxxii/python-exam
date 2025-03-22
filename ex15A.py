@@ -1,0 +1,7 @@
+# myfile = open("jaggu.txt","r")
+# print("this file contains ")
+# print(myfile.read())
+# myfile.close()
+myfile = open("jaggu.txt","a")
+myfile.write("nonipila\n")
+myfile.close()
