@@ -1,0 +1,11 @@
+ ##external file handaling
+myfile =open("batrang.txt",'r')
+print("The content in the file batrang is following")
+print(myfile.read())
+myfile.close()
+myfile1=open("batrang.txt",'a')
+myfile1.write("dada go2\n")
+myfile1.close()
+myfile3 = open("batrang.txt")
+print(myfile3.read())
+myfile3.close()

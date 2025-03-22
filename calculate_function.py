@@ -49,3 +49,8 @@ def hello(name):
             print("hi batar batar")
     else:
         print("no name found")
+
+def value_checker(noni):
+    s = input("enter a number ")
+    for t in range(s):
+        print("noni value is ",noni)
