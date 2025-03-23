@@ -9,7 +9,22 @@
 # print("this file ")
 # print(myfile.read())
 # myfile.close()
-myfile = open("jaggu.txt","a")
-for i in range(5):
-    myfile.write("\nnonipila")
-myfile.close()
+# myfile = open("jaggu.txt","a")
+# for i in range(5):
+#     myfile.write("\nnonipila")
+# myfile.close()
+# myfile = open("jaggu.txt",'r')
+# first_line = myfile.readline()
+# myfile.close()
+# if first_line == "jacob":
+#     myfile1 = open("jaggu.txt","a")
+#     myfile1.write("\nBATRANG")
+#     myfile1.close()
+# else:
+#     print(myfile.read())
+# myfile = open("jj.csv","r")
+# print("jj file contains ")
+# print(myfile.read())
+# myfile.close()
+with open("jj.csv") as myfile:
+    print(myfile.read())
